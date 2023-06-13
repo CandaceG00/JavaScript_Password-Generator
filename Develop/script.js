@@ -1,9 +1,9 @@
 var characterLength = 8;
 var choiceArr = [];
 
-var specialCharacter = [];
-var lowerCase [];
-var upperCase [];
+var specialCharacter = ['!', '@', '#', '$', '%', '^', '&', '*', '/', '<', '>', '[', ']', '{', '}', '?'];
+var lowerCase = [];
+var upperCase = [];
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
