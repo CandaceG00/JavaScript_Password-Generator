@@ -1,3 +1,10 @@
+var characterLength = 8;
+var choiceArr = [];
+
+var specialCharacter = [];
+var lowerCase [];
+var upperCase [];
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -7,6 +14,9 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+}
+
+function generatePassword () {
 
 }
 
