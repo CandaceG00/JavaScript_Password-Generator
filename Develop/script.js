@@ -22,5 +22,12 @@ function generatePassword () {
 
 }
 
+function getPrompts () {
+  characterLength = parseInt(prompt("How many characters do you want your password to be? (8 - 128 characters"));
+  if(isNaN(characterLength) || characterLength < 8 || characterLength > 128)
+    alert ("Character length has to be a number between 8 - 128 digits. Please try again.");
+    return false;
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
