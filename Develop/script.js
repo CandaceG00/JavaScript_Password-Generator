@@ -10,19 +10,33 @@ let numberArr = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
 
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
 // Write password to the #password input
 function writePassword() {
-  let password = generatePassword();
-  let passwordText = document.querySelector("#password");
+    let correctPrompts = getPrompts();
+    let passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+    if (correctPrompts) {
+      let newPassword = generatePassword();
+      passwordText.value = newPassword;
+    } else {
+      passwordText.value = "";
+    }
 }
 
 function generatePassword () {
-
-}
+  let password = "";
+  for(let i = 0; i < characterLength; i++) {
+    let randomIndex = Math.floor(Math.random() * choiceArr.length);
+    password = password + choiceArr[randomIndex];
+  }
+  return password;
+} 
 
 function getPrompts () {
+  choiceArr = [];
   characterLength = parseInt(prompt("How many characters do you want your password to be? (8 - 128 characters"));
   if(isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
     alert ("Character length has to be a number between 8 - 128 digits. Please try again.");
@@ -46,8 +60,3 @@ if (confirm("Would you like numbers in your password?")) {
 }
 return true;
 }
-
-
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
