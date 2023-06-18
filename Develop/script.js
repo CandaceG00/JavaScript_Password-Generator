@@ -7,13 +7,10 @@ let upperCase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'
 let numberArr = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
 
 
-// Assignment Code
 let generateBtn = document.querySelector("#generate");
 
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Write password to the #password input
 function writePassword() {
     let correctPrompts = getPrompts();
     let passwordText = document.querySelector("#password");
