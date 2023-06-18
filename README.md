@@ -31,6 +31,6 @@ THEN the password is either displayed in an alert or written to the page
 * Link: https://candaceg00.github.io/JavaScript_Password-Generator/
 
 * Screenshots:
-    <img src="./assets/javascript_1.png"/>
-    <img src="./assets/javascript_2.png"/>
-    <img src="./assets/javascript_3.png"/>
+    <img src="./Assets/javascript_1.png"/>
+    <img src="./Assets/javascript_2.png"/>
+    <img src="./Assets/javascript_3.png"/>
