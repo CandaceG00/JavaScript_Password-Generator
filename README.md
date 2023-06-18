@@ -38,4 +38,4 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Credits
 
-* I worked on this project with some assistance from classmate Edward Kim. I also referenced this video to assist me with some areas of the JavaScript for the project. Video is: <a href="https://www.youtube.com/watch?v=v2jfGo7ztm8"></a>
+* I worked on this project with some assistance from classmate Edward Kim. I also referenced this video to assist me with some areas of the JavaScript for the project. Video is: <a href="https://www.youtube.com/watch?v=v2jfGo7ztm8">JavaScript Random Password Generator</a>
