@@ -26,9 +26,9 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Usage
 
-* This webpage can be used to generate random passwords between 8 and 128 characters with letters, numbers, and special characters.
+* This webpage can be used to generate random passwords between 8 and 128 characters with letters, numbers, and special characters. Below is the link to the deployed website.
 
-* Link:
+* Link: https://candaceg00.github.io/JavaScript_Password-Generator/
 
 * Screenshots:
     <img src="./assets/javascript_1.png"/>
